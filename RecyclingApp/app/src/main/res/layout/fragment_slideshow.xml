@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:verticalScrollbarPosition="right"
+    tools:context=".ui.slideshow.SlideshowFragment"
+    android:background="@drawable/gradient1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="348dp"
+        android:layout_height="535dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/mako"
+
+        android:shadowColor="#FFFFFF"
+        android:text="Batteries - Rechargable batteries can be recycled for free by placing them in Call2Recycle bins at nearby stores (Home Depot, Lowe's, Staples, Best Buy).\n\n
+Plastic Bags/Grocery Bags - Plastic bags can typically be returned to your local grocery store. Find more info at plasticfilmrecycling.org\n\n
+Light Bulbs - Fluorescent light bulbs may be collected at you local hardware stores (Home Depot, Lowe's)\n\n
+Electronics - We recommend donating, reselling, or recycling electronics. To find any recyclers in your area, visit greenergadgets.org\n\n
+Metals - Industrial metals can be recycled through a metals recycler or disposed at the landfill with construction waste.\n\n
+Clothing - Recycle old clothing by either donating or filling a box and shipping it to Terracycle(or other textile recycling programs)."
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:verticalScrollbarPosition="right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="343dp"
+        android:layout_height="132dp"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:gravity="center"
+        android:text="SPECIAL ITEMS"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

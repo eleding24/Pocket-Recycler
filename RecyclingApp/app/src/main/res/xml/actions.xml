@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action intentName="actions.intent.SCAN_WASTE">
+        <fulfillment
+            urlTemplate="https://www.recycleapp.weebly.com" />
+    </action>
+</actions>
